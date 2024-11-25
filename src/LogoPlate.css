@@ -1,0 +1,14 @@
+
+.LogoPlate {
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    gap: 20px; /* Optional: Adds space between the span items */
+}
+.LogoPlate span {
+    padding: 10px;
+  }
+
+  .LogoPlate img {
+    padding: 10px;
+  }

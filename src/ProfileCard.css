@@ -1,0 +1,23 @@
+
+
+.Profile-Card {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  gap: 0px;
+}
+.Profile-Card h1 {
+  margin: 5px;
+}
+
+.Profile-Card p {
+  margin: 10px;
+}
+
+.LogoCard {
+  border: solid 2px;
+  width: 100%;
+}
+  
