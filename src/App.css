@@ -1,16 +1,38 @@
-
-.App {
-  background-color: darkslategray;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+.ContentWrapper {
+  max-width: 1920px; /* Set the maximum width as needed */
+  margin: 0 auto; /* Center the content */
+  border-radius: 10px;
+  overflow: hidden; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #a58484;
+  color: #000000;
+}
+.App-header {
+  width: 100%;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
 .Background-Image-Box {
   position: relative;
-  width: 100vw; /* Set the desired fixed width */
-  height: 100vh; /* Set the desired fixed height */
+  width: 100%;
+  height: 55vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   overflow: hidden;
+  margin-bottom: 2rem;
 }
 .Background-Image-Box img {
   width: 100%;
@@ -19,14 +41,36 @@
   transition: opacity 1s ease-in-out; /* Smooth fade effect */
   opacity: 1;
 }
+
 .Background-Image-Box img.hidden {
-  opacity: 0; /* Make the current image fade out */
+  opacity: 0; 
 }
 
+.ForGround-Image-Content {
+  position: absolute;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+.Projects-Title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Project-Box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+  background-color: gainsboro;
+}
 /* Position ProfileInfo on top of the image */
 .Profile-Card {
   position: absolute; /* Position it above the image */
-  background-color: rgba(255, 255, 255, .1); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.479); /* Semi-transparent background */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -37,8 +81,60 @@
 
 }
 .Footer-Background {
-  background-color:bisque;
-  border: solid 1px;
-  width: 100vw; /* Set the desired fixed width */
+  background-color: bisque;
+  width: 100%; 
+}
+.Footer-Conent {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  width: 100%;
+}
 
+.Footer-Conent h3 {
+  display: block;          
+  margin: 10px 0;          
+  width: 100%;             
+  text-align: center;      
+}
+.button {
+  background: linear-gradient(90deg, #1877f2, #166fe5);
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+button:hover {
+  background: linear-gradient(90deg, #166fe5, #135cbb);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+button:active {
+  background: linear-gradient(90deg, #135cbb, #0e48a0);
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.button a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Ensure the text color stays white */
+}
+
+.button a:visited {
+  color: white; /* Prevent the color from changing after the link is clicked */
+}
+
+.button a:hover {
+  color: white; /* Keep text color white on hover */
+}
+
+@media (max-width: 768px) {
+  .Project-Box {
+    justify-content: space-around;
+  }
 }

@@ -1,7 +1,6 @@
 
 
 .Profile-Card {
-  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,6 +17,10 @@
 
 .LogoCard {
   border: solid 2px;
-  width: 100%;
+  min-width: 400px;
+  max-width: 100%;
+  background-color: rgba(54, 7, 7, 0.1);
+  box-sizing: border-box;
+  overflow: hidden;
 }
   

@@ -1,0 +1,95 @@
+
+.CertificateBox {
+    background-color: gainsboro;
+    padding-left: 1rem;
+    object-fit: cover;
+}
+.img-Box {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+.linkImg {
+    width: 100%; /* Ensure image fills the container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure image fits within the container without distortion */
+}
+.controlled-inline {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    border-radius: 8px;
+    border: solid 1px;
+    justify-content: center;
+}
+.certificate_text {
+    margin-top: 1rem;
+    padding: 1rem;
+    justify-items: center;
+    text-align: center; /* Center-align text */
+    width: 50%;
+}
+.buttons-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.inline {
+    margin: 2rem;
+    display: flex;
+    gap: 1rem;
+    margin-top: 15rem;
+    width: 50%;
+}
+.abt_text {
+    font-size: large;
+    font-weight: 600;
+}
+.abt_buttons {
+    width: 60%;
+
+}
+.button_Certificate {
+    background: linear-gradient(90deg, #1877f2, #166fe5);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  .button_Certificate:hover {
+    background: linear-gradient(90deg, #166fe5, #135cbb);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  button:active {
+    background: linear-gradient(90deg, #135cbb, #0e48a0);
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .button_Certificate a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Ensure the text color stays white */
+  }
+  
+  .button_Certificate a:visited {
+    color: white; /* Prevent the color from changing after the link is clicked */
+  }
+  
+  .button_Certificate a:hover {
+    color: white; /* Keep text color white on hover */
+  }
+
+  @media (max-width: 768px) {
+    .controlled-inline {
+      justify-content: space-around;
+    }
+  }

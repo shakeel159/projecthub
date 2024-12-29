@@ -1,0 +1,40 @@
+
+.nbar {
+  position: fixed; /* Fix the navbar at the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Make it span across the entire width */
+  background-color: #333; /* You can adjust the background color */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+ul {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+li {
+    display: flex;
+    color: aliceblue;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 15%;
+}
+nav button {
+  padding: 10px 20px; /* Inner padding for buttons */
+  margin: 0 10px; /* Spacing between buttons */
+  background-color: #555; /* Button background color */
+  color: #fff; /* Text color */
+  border: none; /* Remove borders */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size for text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth hover effects */
+}
+button:hover {
+    background-color: #777; /* Slightly lighter background on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+  button:active {
+    background-color: #999; /* Darker background on click */
+    transform: scale(0.95); /* Slight compression on click */
+}

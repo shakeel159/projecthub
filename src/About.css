@@ -1,0 +1,11 @@
+
+.CardBox {
+    border: solid 1px;
+    background-color: aliceblue;
+}
+.about {
+    font-size: large;
+    font-weight: 600;
+
+    margin: 1rem;
+}

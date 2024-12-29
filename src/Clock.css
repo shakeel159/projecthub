@@ -3,7 +3,7 @@
 .Time {
     position: absolute;
     font-family: 'Orbitron', sans-serif; /* Use Orbitron font */
-    width: 100%;
+    width: 98%;
     display: flex;
     justify-content: end;
     top: 70%;
