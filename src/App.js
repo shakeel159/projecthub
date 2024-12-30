@@ -20,7 +20,8 @@ import Bar from './Navbar.js';
 import ProjectCard from './ProjectCard.js';
 import ProfilePic from './img.js';
 import recipeimg from './Images/web.JPG';
-import addvonImg from './Images/AddvonImg.PNG';
+import addvonImg from './Images/AddvonImg.PNG'
+import crocBashPic from './Images/CB_Icon.png'
 import './App.css';
 
 const Home = () => <div><h1>Home Page</h1></div>;
@@ -70,15 +71,28 @@ function App() {
           </div>
           <ProjectCard
             class="ProjectCard"
+            img={crocBashPic}
+            title="Croc Bash"
+            describtion="VR Game Project with Collaboration with other Columbia College Chicago Students to create VR interactive Game"
+            link="https://www.youtube.com/watch?v=ImPOPqhTMcY"
+          />
+          <ProjectCard
+            class="ProjectCard"
             img={recipeimg}
             title="Recipe-App"
-            description="Find your favorite foods and the recipes to make them."
+            describtion="Find your favorite foods and the recipes to make them."
+          />
+            <ProjectCard
+            class="ProjectCard"
+            img={addvonImg}
+            title="Addvon Game"
+            describtion="2D action sidescroller made in Unity with C#."
           />
           <ProjectCard
             class="ProjectCard"
             img={addvonImg}
             title="Addvon Game"
-            description="2D action sidescroller made in Unity with C#."
+            describtion="2D action sidescroller made in Unity with C#."
           />
         </div>
         <div className="About-Box">
@@ -88,15 +102,32 @@ function App() {
       </div>
 
     <footer>
-      <div className="Footer-Background">
-        <div className="Footer-Conent">
-          <h3>CopyRight @JazibPortfolio</h3>
-          <h3>Linked</h3>
-          <h3>Indeed</h3>
-          <h3>GitHub</h3>
-          <h3>Portfolio</h3>
+      <div className='FooterHead'>
+            <p>© 2025 Jazib Shakeel prtfolio page</p>
+            <div className="Footer_Body">
+                <div className="Contact">
+                <h3 className="head">Contact</h3>
+                <div>
+                  <p>JazibShaq@gmail.com</p>
+                </div>
+                <div>
+                  <p>832-855-2019</p>
+                </div>
+                </div>
+                <div className="Socials">
+                <h3 className="head">Socials</h3>
+                <div>
+                  <a href="https://www.linkedin.com/in/jazib-shakeel/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+                <div>
+                  <a href="https://github.com/shakeel159" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+                <div>
+                  <a href="https://www.hackerrank.com/profile/jazibshaq" target="_blank" rel="noopener noreferrer">hackerRank</a>
+                </div>
+                </div>
+            </div>
         </div>
-      </div>
     </footer>
   </div>
   );
