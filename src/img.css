@@ -2,12 +2,11 @@
 
 .Profile-Component{
     position: absolute;
-    top: 8rem; /* Position at 0px from the top of the parent */
-    left: 1rem; /* Position at 0px from the left of the parent */
-    padding: 10px;
+    top: 8rem; 
+    left: 1rem; 
 
     border-radius: 50%;
     object-fit: cover;
     overflow: hidden;
-    border: 2px solid #333;
+
 }

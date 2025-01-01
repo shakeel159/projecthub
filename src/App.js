@@ -22,11 +22,15 @@ import ProfilePic from './img.js';
 import recipeimg from './Images/web.JPG';
 import addvonImg from './Images/AddvonImg.PNG'
 import crocBashPic from './Images/CB_Icon.png'
+import lemonPic from './Images/lemonpic.PNG'
+import TCWPP from './Images/TCWPP.png'
 import './App.css';
 
 const Home = () => <div><h1>Home Page</h1></div>;
 const Projects = () => <div><h1>Projects Page</h1></div>;
 const About = () => <div><h1>About Page</h1></div>;
+
+const linkedIn ='https://www.linkedin.com/in/jazib-shakeel/details/projects/';
 
 function App() {
   const images = [Hawkimg, DeerImg, DesertArt, ForesetArt, cp01, cp02,cp03,cp05,cp06]; // Array of image imports
@@ -66,39 +70,60 @@ function App() {
           <Certificate />
         </div>
         <div className="Project-Box">
-          <div className="Projects-Title" ref={projectSectionRef}>
-            <h1>Projects</h1>
+          <div className="Projects-Text" ref={projectSectionRef}>
+            <div className='projecy-title'>
+              <h1>Projects</h1>
+            </div>
+            <div className='projecy-info'>
+            <p>
+            Additional information about projects, such as other collaborators, can be found on my{" "}
+              <a href={linkedIn} target="_blank" rel="noopener noreferrer">
+                LinkedIn
+              </a>.
+              To view the source code, the GitHub links are also public and accessible through LinkedIn or at the bottom of the page.
+            </p>
+            </div>
           </div>
           <ProjectCard
             class="ProjectCard"
-            img={crocBashPic}
-            title="Croc Bash"
-            describtion="VR Game Project with Collaboration with other Columbia College Chicago Students to create VR interactive Game"
-            link="https://www.youtube.com/watch?v=ImPOPqhTMcY"
+            img={lemonPic}
+            title="Little Lemon Resturant"
+            decribtion="Meta Course React Capstone Project App"
+             link="https://shakeel159.github.io/lemon-app/"
           />
           <ProjectCard
             class="ProjectCard"
             img={recipeimg}
             title="Recipe-App"
-            describtion="Find your favorite foods and the recipes to make them."
+            decribtion="Vite+React app to Find your favorite foods and the recipes and make them."
+             link="https://shakeel159.github.io/Recipe-App/"
           />
-            <ProjectCard
+          <ProjectCard
             class="ProjectCard"
-            img={addvonImg}
-            title="Addvon Game"
-            describtion="2D action sidescroller made in Unity with C#."
+            img={crocBashPic}
+            title="Croc Bash"
+            decribtion="Collaboration with other Columbia College Chicago Students to create VR interactive Game"
+            link="https://www.youtube.com/watch?v=ImPOPqhTMcY"
           />
           <ProjectCard
             class="ProjectCard"
             img={addvonImg}
             title="Addvon Game"
-            describtion="2D action sidescroller made in Unity with C#."
+            decribtion="2D action sidescroller made in Unity with C#."
+            link="https://itch.io/profile/shakeel159"
+          />
+          <ProjectCard
+            class="ProjectCard"
+            img={TCWPP}
+            title="CWPP Concept"
+            decribtion="collaborative project creating a 2D game focusing on exploration and trading."
+            link="https://baerutt.itch.io/the-child-who-picked-pebble?download"
           />
         </div>
         <div className="About-Box">
           <Abt ref={aboutSectionRef}/>
         </div>
-        <ProfilePic />
+        <ProfilePic/>
       </div>
 
     <footer>

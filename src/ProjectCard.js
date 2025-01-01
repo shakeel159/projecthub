@@ -1,12 +1,14 @@
 import React from 'react';
 import './ProjectCard.css';
 
-const Card = ({ title, description, img, link }) => {
+const Card = ({ title, decribtion, img, link }) => {
     return (
         <div className="Card-Box">
             <div className='Link-Box'>
-                <h2>{title}</h2>
-                <p className='decribtion'>{description}</p>
+                <div>
+                    <h2 className='text-box'>{title}</h2>
+                    <p className='decribtion'>{decribtion}</p>
+                </div>
                 <button className='button'>
                     <a href={link} target="_blank" rel="noopener noreferrer">
                         View Project

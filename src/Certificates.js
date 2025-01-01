@@ -25,14 +25,14 @@ const certificate = () => {
                 <div className='certificate_text'>
                     <p className='abt_text'>
                     Meta Front End Developer Course where you will <span>
-                    </span>Receive professional-level training from Meta, <span>
-                    </span>Demonstrate your proficiency in portfolio-ready projects, <span>
-                    </span> and earn an employer-recognized certificate from Meta
+                    </span>receive professional-level training from Meta, <span>
+                    </span>demonstrate your proficiency in portfolio-ready projects, <span>
+                    </span> and earn an employer-recognized certificate from Meta.
                     </p>
                     <br></br>
                     <p className='abt_buttons'>
-                    <span>Below you can click the buttons provided to go to designated pages</span>
-                    <span>that will showcase where to take Meta Front End Course, Where you can view my Capstone Project, and a button to the Certificate</span>
+                    <span>Below, you can click the buttons provided to go to designated pages</span>
+                    <span>that will showcase where to take the Meta Front-End Course, where you can view my Capstone Project, and a button to the certificate.</span>
                     </p>
                     <div className='buttons-container'>
                         <div className='courseLink'>
