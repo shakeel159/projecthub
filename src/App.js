@@ -24,6 +24,8 @@ import addvonImg from './Images/AddvonImg.PNG'
 import crocBashPic from './Images/CB_Icon.png'
 import lemonPic from './Images/lemonpic.PNG'
 import TCWPP from './Images/TCWPP.png'
+import CarWebImg from './Images/CarCapture.PNG'
+import CoffeeWeb from './Images/CoffeeWeb.PNG'
 import './App.css';
 
 const Home = () => <div><h1>Home Page</h1></div>;
@@ -84,6 +86,20 @@ function App() {
             </p>
             </div>
           </div>
+          <ProjectCard
+            class="ProjectCard"
+            img={CarWebImg}
+            title="Car Detailing Site"
+            decribtion="small business website created with WordPress"
+             link="https://ihr.wri.temporary.site/website_c980d024/"
+          />
+          <ProjectCard
+            class="ProjectCard"
+            img={CoffeeWeb}
+            title="small Coffee business"
+            decribtion="small business website created with WordPress"
+             link="https://ihr.wri.temporary.site/website_738eaddf/"
+          />
           <ProjectCard
             class="ProjectCard"
             img={lemonPic}
