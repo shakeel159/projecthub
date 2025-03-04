@@ -26,6 +26,7 @@ import lemonPic from './Images/lemonpic.PNG'
 import TCWPP from './Images/TCWPP.png'
 import CarWebImg from './Images/CarCapture.PNG'
 import CoffeeWeb from './Images/CoffeeWeb.PNG'
+import netflixClone from './Images/NetflixCloneIMG.PNG'
 import './App.css';
 
 const Home = () => <div><h1>Home Page</h1></div>;
@@ -86,6 +87,13 @@ function App() {
             </p>
             </div>
           </div>
+          <ProjectCard
+            class="ProjectCard"
+            img={netflixClone}
+            title="Netflix Clone"
+            decribtion="Recreating Netflix App using React.js and web API for list of movies"
+            link="https://shakeel159.github.io/Netflix-Clone_ReactJS/"
+          />
           <ProjectCard
             class="ProjectCard"
             img={CarWebImg}
