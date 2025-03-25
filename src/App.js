@@ -27,6 +27,7 @@ import TCWPP from './Images/TCWPP.png'
 import CarWebImg from './Images/CarCapture.PNG'
 import CoffeeWeb from './Images/CoffeeWeb.PNG'
 import netflixClone from './Images/NetflixCloneIMG.PNG'
+import JobBoardIMG from './Images/Job-Board.PNG'
 import './App.css';
 
 const Home = () => <div><h1>Home Page</h1></div>;
@@ -87,6 +88,13 @@ function App() {
             </p>
             </div>
           </div>
+          <ProjectCard
+            class="ProjectCard"
+            img={JobBoardIMG}
+            title="Job Board"
+            decribtion="job board website simulate a user viewing and searching jobs from indeed"
+            link="https://shakeel159.github.io/mka-job-board/"
+          />
           <ProjectCard
             class="ProjectCard"
             img={netflixClone}
