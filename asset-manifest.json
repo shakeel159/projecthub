@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projecthub/static/css/main.2b9a7535.css",
-    "main.js": "/projecthub/static/js/main.2b93845e.js",
+    "main.js": "/projecthub/static/js/main.d5cc9d64.js",
     "static/js/453.30935d01.chunk.js": "/projecthub/static/js/453.30935d01.chunk.js",
     "static/media/NetflixCloneIMG.PNG": "/projecthub/static/media/NetflixCloneIMG.63fe18f3549889d4aa08.PNG",
     "static/media/Cyberpunk004.png": "/projecthub/static/media/Cyberpunk004.e41ed6965708b364d778.png",
@@ -24,15 +24,16 @@
     "static/media/web.JPG": "/projecthub/static/media/web.f5259fb8ef7e523766ea.JPG",
     "static/media/TCWPP.png": "/projecthub/static/media/TCWPP.2745a4e2cefcc0ca2d21.png",
     "static/media/Job-Board.PNG": "/projecthub/static/media/Job-Board.d8f55a6347e9e85f9976.PNG",
+    "static/media/RegisteringApp.PNG": "/projecthub/static/media/RegisteringApp.a6b8f49931dfe5309534.PNG",
     "static/media/shaq.jpg": "/projecthub/static/media/shaq.1c8a30810eca4a47ec61.jpg",
     "static/media/logo.svg": "/projecthub/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/projecthub/index.html",
     "main.2b9a7535.css.map": "/projecthub/static/css/main.2b9a7535.css.map",
-    "main.2b93845e.js.map": "/projecthub/static/js/main.2b93845e.js.map",
+    "main.d5cc9d64.js.map": "/projecthub/static/js/main.d5cc9d64.js.map",
     "453.30935d01.chunk.js.map": "/projecthub/static/js/453.30935d01.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b9a7535.css",
-    "static/js/main.2b93845e.js"
+    "static/js/main.d5cc9d64.js"
   ]
 }
