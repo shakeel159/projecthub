@@ -28,6 +28,7 @@ import CarWebImg from './Images/CarCapture.PNG'
 import CoffeeWeb from './Images/CoffeeWeb.PNG'
 import netflixClone from './Images/NetflixCloneIMG.PNG'
 import JobBoardIMG from './Images/Job-Board.PNG'
+import RegisteringApp from './Images/RegisteringApp.PNG'
 import './App.css';
 
 const Home = () => <div><h1>Home Page</h1></div>;
@@ -88,6 +89,13 @@ function App() {
             </p>
             </div>
           </div>
+          <ProjectCard
+            class="RegisteringUser-App"
+            img={RegisteringApp}
+            title="Registering User App"
+            decribtion="Website created using ASP.NET Core to allow user to Add, Edit, Delete profiles of clients which are then stored in SQL server."
+            link="https://github.com/shakeel159/RegisteringApp/tree/main"
+          />
           <ProjectCard
             class="ProjectCard"
             img={JobBoardIMG}
