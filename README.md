@@ -1,9 +1,3 @@
-# Direct Link to Working .NET Website:
-http://registeringapp-dev.eba-cgy73zsp.us-east-1.elasticbeanstalk.com/
-
-# short video of.Met Core Project
-https://github.com/user-attachments/assets/a946c91f-83a1-4f8b-be08-e1f8518b4316
-
 
 # Getting Started with Create React App
 
